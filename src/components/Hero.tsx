@@ -24,7 +24,7 @@ export function Hero() {
         </div>
 
         <p className="text-sm text-zinc-400 leading-relaxed max-w-xl font-mono">
-          An enthusiastic builder who loves taking on messy real world
+          An enthusiastic engineer who loves taking on messy real world
           challenges and writing code to solve them. Driven by genuine curiosity
           and a relentless drive to build things that matter.
         </p>
