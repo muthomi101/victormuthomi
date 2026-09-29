@@ -36,10 +36,10 @@ export function DirectAccess() {
 
   return (
     <section className="space-y-4 font-mono">
-      <div className="space-y-1">
-        <h2 className="text-sm font-semibold uppercase tracking-widest text-zinc-200 flex items-center gap-2">
-          <span className="w-2 h-2 rounded-full bg-[#E0234E]"></span>
-          Direct Access
+      <div className="space-y-2">
+        <h2 className="text-2xl font-bold tracking-tight text-white flex items-center gap-2 font-mono">
+          <span>Contact</span>
+          <span className="inline-block w-2 h-5 bg-zinc-400 animate-pulse"></span>
         </h2>
         <p className="text-xs text-zinc-500">
           Open for backend systems, architecture discussions, and engineering
