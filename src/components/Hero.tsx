@@ -27,6 +27,9 @@ export function Hero() {
           An enthusiastic builder who loves taking on messy real world
           challenges and writing code to solve them. Driven by genuine curiosity
           and a relentless drive to build things that matter.
+          A pragmatic engineer who loves taking on messy real world challenges
+          and writing code to solve them. Driven by genuine curiosity and a
+          relentless drive to build things that matter.
         </p>
       </div>
 
