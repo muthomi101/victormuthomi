@@ -3,6 +3,7 @@ import { Philosophy } from "@/components/Philosophy";
 import { CoreMechanics } from "@/components/CoreMechanics";
 import { Footer } from "@/components/Footer";
 import { DirectAccess } from "@/components/DirectAccess";
+import { Projects } from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Philosophy />
       <CoreMechanics />
+      <Projects />
       <DirectAccess />
       <Footer />
     </div>
