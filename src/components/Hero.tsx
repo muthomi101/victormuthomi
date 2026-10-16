@@ -9,7 +9,7 @@ export function Hero() {
         <div className="space-y-3">
           <div className="inline-flex items-center gap-2 font-mono text-xs text-zinc-500">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
-            <span>BACKEND SOFTWARE ENGINEER</span>
+            <span>SOFTWARE ENGINEER</span>
           </div>
 
           {/* Animated Name */}
@@ -24,9 +24,10 @@ export function Hero() {
         </div>
 
         <p className="text-sm text-zinc-400 leading-relaxed max-w-xl font-mono">
-          A pragmatic engineer who loves taking on messy real world challenges
-          and writing code to solve them. Driven by genuine curiosity and a
-          relentless drive to build things that matter.
+          A pragmatic software engineer building resilient, end-to-end
+          systems—from high-throughput backend architecture and transactional
+          domain logic to modern React & Next.js interfaces and containerized
+          DevOps pipelines.
         </p>
       </div>
 
@@ -48,7 +49,7 @@ export function Hero() {
         <div className="space-y-1 text-zinc-300 overflow-x-auto leading-relaxed">
           <p>
             <span className="text-purple-400">const</span>{" "}
-            <span className="text-yellow-300">solver</span> = &#123;
+            <span className="text-yellow-300">engineer</span> = &#123;
           </p>
           <p className="pl-4">
             name:{" "}
@@ -56,15 +57,29 @@ export function Hero() {
             ,
           </p>
           <p className="pl-4">
-            mindset:{" "}
+            core:{" "}
             <span className="text-emerald-400">
-              &apos;Enthusiastic problem solver&apos;
+              [&apos;Go&apos;, &apos;Python&apos;, &apos;Node.js&apos;]
             </span>
             ,
           </p>
           <p className="pl-4">
-            medium:{" "}
-            <span className="text-emerald-400">&apos;Code & logic&apos;</span>
+            frontend:{" "}
+            <span className="text-emerald-400">
+              [&apos;React&apos;, &apos;Next.js&apos;]
+            </span>
+            ,
+          </p>
+          <p className="pl-4">
+            devops:{" "}
+            <span className="text-emerald-400">&apos;Docker / CI/CD&apos;</span>
+            ,
+          </p>
+          <p className="pl-4">
+            mindset:{" "}
+            <span className="text-emerald-400">
+              &apos;Solve real problems&apos;
+            </span>
           </p>
           <p>&#125;;</p>
         </div>
