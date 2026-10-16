@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
-import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const jetbrainsMono = JetBrains_Mono({
@@ -58,7 +57,6 @@ export default function RootLayout({
         className={`${jetbrainsMono.variable} font-mono bg-carbon text-zinc-300 antialiased selection:bg-zinc-800 selection:text-white min-h-screen py-16 px-6`}
       >
         <main className="max-w-[700px] mx-auto space-y-12">{children}</main>
-        <Analytics />
       </body>
     </html>
   );
